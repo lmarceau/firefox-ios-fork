@@ -27,7 +27,7 @@ jobs:
       DELETIONS: ${{ github.event.pull_request.deletions }}
       EVENT_ACTION: ${{ github.event.action }}
       BIG_PR_THRESHOLD: '800'
-      TEAM_SLUG: 'firefox-ios-tech-leads'
+      TEAM_SLUG: 'test-team'
       LABEL_NAME: 'needs-tech-lead-review'
 
     steps:
